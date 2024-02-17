@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <title>EFOOD</title>
+  </head>
+  <body>
+    <header class="bg-[#F8F9FE]">
+      <section class="header flex justify-around items-center">
+        <div class="header_logo mt-[35px]">
+          <img src="./assets/img/EFood_logo.svg" alt="" />
+        </div>
+        <input type="checkbox" id="check" />
+        <ul
+          class="header_title flex justify-center gap-[60px] pt-[30px] items-center"
+        >
+          <label for="check" class="header_close"
+            ><i class="fa-solid fa-xmark"></i
+          ></label>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Top cities</a></li>
+          <li><a href="#" class="pt-[10px]">Contract</a></li>
+          <li class="header_images flex gap-[60px] max-[1030px]:hidden">
+            <div><img src="./assets/img/EFOOD_search.svg" alt="" /></div>
+            <div><img src="./assets/img/EFOOD_shop.svg" alt="" /></div>
+          </li>
+          <li><button class="header_btn">Sign Up</button></li>
+        </ul>
+        <label for="check" class="header_open"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+      </section>
+    </header>
+    <main>
+      <section class="flex justify-center bg-[#F8F9FE]">
+        <section
+          class="food flex justify-center bg-[#F8F9FE] mt-[80px] max-[1260px]:block"
+        >
+          <div>
+            <p
+              class="food_text pt-[60px] max-[760px]:text-[55px] max-[760px]:pt-[20px] max-[680px]:text-[50px] max-[580px]:text-[40px] max-[500px]:text-[35px] max-[440px]:text-[30px] max-[270px]:text-[25px]"
+            >
+              super fast
+              <mark class="food_mark"
+                >Food <br />
+                delivery</mark
+              >
+              service
+            </p>
+            <p
+              class="food_title pt-[25px] max-[760px]:text-[15px] max-[680px]:text-[14px] max-[580px]:text-[13px] max-[500px]:text-[12px] max-[440px]:text-[11px]"
+            >
+              We provide super fast-delivery service. Let’s use our <br />
+              services right now and get discounts of up to 50%
+            </p>
+
+            <button
+              class="food_btn mt-[40px] max-[680px]:text-[15px] max-[500px]:text-[14px] max-[440px]:text-[14px] max-[390px]:mt-[20px]"
+            >
+              Explore Food
+            </button>
+            <p
+              class="food_p mt-[-42px] ml-[200px] max-[760px]:text-[20px] max-[680px]:text-[15px] max-[680px]:ml-[150px] max-[680px]:mt-[-35px] max-[500px]:text-[14px] max-[440px]:text-[12px] max-[440px]:mt[-27px] max-[320px]:hidden"
+            >
+              Download App
+            </p>
+          </div>
+          <div
+            class="food_img max-[1260px]:pt-[80px] max-[760px]:w-[650px] max-[680px]:w-[560px] max-[580px]:w-[480px] max-[500px]:w-[420px] max-[440px]:w-[370px] max-[390px]:w-[320px] max-[320px]:w-[250px] max-[270px]:w-[220px] max-[270px]:pt-[40px]"
+          >
+            <img src="./assets/img/EFOOD_img.png" alt="" />
+          </div>
+        </section>
+      </section>
+      <section class="bg-[#F8F9FE] flex justify-center">
+        <section class="fast bg-[#F8F9FE]">
+          <p class="fast_text max-[400px]:text-[22px]">
+            Our popular <mark class="fast_mark">Category</mark>
+          </p>
+          <ul
+            class="flex justify-center pt-[55px] pb-[40px] gap-[30px] max-[1200px]:block"
+          >
+            <li class="fast_food flex gap-[8px] max-[1200px]:mt-[20px]">
+              <div class="fast_icon">
+                <img src="./assets/img/icon.svg" alt="" />
+              </div>
+              <p class="fast_p">Burger</p>
+            </li>
+            <li class="fast_food flex gap-[8px] max-[1200px]:mt-[20px]">
+              <div class="fast_icon">
+                <img src="./assets/img/icon_2.svg" alt="" />
+              </div>
+              <p class="fast_p">Pizza</p>
+            </li>
+            <li class="fast_food flex gap-[8px] max-[1200px]:mt-[20px]">
+              <div class="fast_icon">
+                <img src="./assets/img/icon_3.svg" alt="" />
+              </div>
+              <p class="fast_p">Sandwich</p>
+            </li>
+            <li class="fast_food flex gap-[8px] max-[1200px]:mt-[20px]">
+              <div class="fast_icon">
+                <img src="./assets/img/icon_4.svg" alt="" />
+              </div>
+              <p class="fast_p">Asian Food</p>
+            </li>
+            <li class="fast_food flex gap-[8px] max-[1200px]:mt-[20px]">
+              <div class="fast_icon">
+                <img src="./assets/img/icon_5.svg" alt="" />
+              </div>
+              <p class="fast_p">Set Menu</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="swiper">
+        <div class="swiper mySwiper bg-[#F8F9FE]">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex justify-center">
+              <ul
+                class="flex justify-center gap-[30px] mb-[60px] max-[1200px]:block"
+              >
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Cheeseburger With Salad</p>
+                  <p class="swiper_money">$18.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon pt-[10px]">
+                    <img src="./assets/img/burger_2.svg" alt="" />
+                  </div>
+                  <p class="swiper_text pl-[62px]">Beef Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_3.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Royel Cheeseburger</p>
+                  <p class="swiper_money">$16.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_4.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Black Gambugrer</p>
+                  <p class="swiper_money">$14.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_5.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Chicken Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide flex justify-center">
+              <ul
+                class="flex justify-center gap-[30px] mb-[60px] max-[1200px]:block"
+              >
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Cheeseburger With Salad</p>
+                  <p class="swiper_money">$18.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon pt-[10px]">
+                    <img src="./assets/img/burger_2.svg" alt="" />
+                  </div>
+                  <p class="swiper_text pl-[62px]">Beef Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_3.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Royel Cheeseburger</p>
+                  <p class="swiper_money">$16.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_4.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Black Gambugrer</p>
+                  <p class="swiper_money">$14.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_5.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Chicken Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide flex justify-center">
+              <ul
+                class="flex justify-center gap-[30px] mb-[60px] max-[1200px]:block"
+              >
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Cheeseburger With Salad</p>
+                  <p class="swiper_money">$18.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon pt-[10px]">
+                    <img src="./assets/img/burger_2.svg" alt="" />
+                  </div>
+                  <p class="swiper_text pl-[62px]">Beef Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_3.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Royel Cheeseburger</p>
+                  <p class="swiper_money">$16.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_4.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Black Gambugrer</p>
+                  <p class="swiper_money">$14.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_5.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Chicken Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper-slide flex justify-center">
+              <ul
+                class="flex justify-center gap-[30px] mb-[60px] max-[1200px]:block"
+              >
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Cheeseburger With Salad</p>
+                  <p class="swiper_money">$18.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon pt-[10px]">
+                    <img src="./assets/img/burger_2.svg" alt="" />
+                  </div>
+                  <p class="swiper_text pl-[62px]">Beef Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_3.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Royel Cheeseburger</p>
+                  <p class="swiper_money">$16.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_4.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Black Gambugrer</p>
+                  <p class="swiper_money">$14.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+                <li
+                  class="swiper_box w-[208px] h-[280px] bg-[#fff] max-[1200px]:mt-[20px]"
+                >
+                  <div class="swiper_icon">
+                    <img src="./assets/img/burger_5.svg" alt="" />
+                  </div>
+                  <p class="swiper_text">Chicken Burger</p>
+                  <p class="swiper_money">$15.00</p>
+                  <button class="swiper_btn">Add to Cart</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="swiper_menu flex justify-center gap-[100px]">
+            <svg
+              width="34"
+              height="34"
+              viewBox="0 0 34 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-p ath="url(#clip0_0_366)">
+                <path
+                  d="M7.43094e-07 17C3.33327e-07 7.62563 7.62563 -3.33327e-07 17 -7.43094e-07C26.3744 -1.15286e-06 34 7.62563 34 17C34 26.3744 26.373 34 17 34C7.62696 34 1.15286e-06 26.3744 7.43094e-07 17ZM31.3664 17C31.3664 9.07939 24.9219 2.6336 17 2.6336C9.07807 2.63361 2.63361 9.07939 2.63361 17C2.63361 24.9219 9.07807 31.3664 17 31.3664C24.9219 31.3664 31.3664 24.9206 31.3664 17Z"
+                  fill="#D1D2DC"
+                />
+                <path
+                  d="M18.8171 24.5189L12.2331 17.9349C11.7222 17.4213 11.7222 16.5918 12.2331 16.0782L18.8171 9.49413C19.3096 9.07145 20.0378 9.07145 20.5303 9.49413C21.0821 9.96688 21.1465 10.7991 20.6738 11.3509L15.0247 17L20.6739 22.6622C21.1848 23.1758 21.1848 24.0054 20.6739 24.5189C20.1603 25.0299 19.3307 25.0299 18.8171 24.5189Z"
+                  fill="#D1D2DC"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_366">
+                  <rect
+                    width="34"
+                    height="34"
+                    fill="white"
+                    transform="matrix(4.37114e-08 1 1 -4.37114e-08 0 0)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="swiper-pagination"></div>
+            <svg
+              width="34"
+              height="34"
+              viewBox="0 0 34 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_0_366)">
+                <path
+                  d="M34 17C34 7.62563 26.3744 -3.33327e-07 17 -7.43094e-07C7.62563 -1.15286e-06 -3.33327e-07 7.62563 -7.43094e-07 17C-1.15286e-06 26.3744 7.62696 34 17 34C26.373 34 34 26.3744 34 17ZM2.63361 17C2.63361 9.07939 9.07807 2.6336 17 2.6336C24.9219 2.63361 31.3664 9.07939 31.3664 17C31.3664 24.9219 24.9219 31.3664 17 31.3664C9.07806 31.3664 2.6336 24.9206 2.63361 17Z"
+                  fill="#D1D2DC"
+                />
+                <path
+                  d="M15.1829 24.5189L21.7669 17.9349C22.2778 17.4213 22.2778 16.5918 21.7669 16.0782L15.1829 9.49413C14.6904 9.07145 13.9622 9.07145 13.4697 9.49413C12.9179 9.96688 12.8535 10.7991 13.3262 11.3509L18.9753 17L13.3261 22.6622C12.8152 23.1758 12.8152 24.0054 13.3261 24.5189C13.8397 25.0299 14.6693 25.0299 15.1829 24.5189Z"
+                  fill="#D1D2DC"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_0_366">
+                  <rect
+                    width="34"
+                    height="34"
+                    fill="white"
+                    transform="matrix(4.37114e-08 1 1 -4.37114e-08 0 0)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="flex justify-center bg-[#F8F9FE]">
+        <section class="home bg-[#F8F9FE] max-[1080px]:block">
+          <div
+            class="home_img max-[660px]:w-[490px] max-[520px]:w-[425px] max-[450px]:w-[350px] max-[380px]:w-[310px] max-[320px]:hidden"
+          >
+            <img src="./assets/img/EFOOD_phone.png" alt="" />
+          </div>
+          <div class="pt-[150px] max-[1080px]:pt-[50px]">
+            <p
+              class="home_text max-[660px]:text-[34px] max-[520px]:text-[32px] max-[450px]:text-[30px] max-[380px]:text-[26px] max-[320px]:text-[20px]"
+            >
+              Stay
+              <mark class="home_mark"
+                >At Home, We Will <br />
+                Provide</mark
+              >
+              Good food
+            </p>
+            <p
+              class="home_title max-[660px]:text-[18px] max-[520px]:text-[16px] max-[450px]:text-[15px] max-[380px]:text-[13px] max-[320px]:text-[10px]"
+            >
+              We provide tasty food and superfast delivery at <br />
+              your home. Let’s use our services right now and <br />
+              get discounts of up to 50%.
+            </p>
+            <span
+              class="home_box flex gap-[20px] pt-[51px] items-center max-[450px]:hidden"
+            >
+              <div class="home_icon">
+                <img src="./assets/img/Timer icon.svg" alt="" />
+              </div>
+              <p class="home_p max-[660px]:text-[19px] max-[520px]:text-[14px]">
+                Fasted Delivery in 30 Minutes
+              </p>
+            </span>
+            <span
+              class="home_box flex gap-[20px] pt-[22px] items-center max-[450px]:hidden"
+            >
+              <div class="home_icon">
+                <img src="./assets/img/Ti.svg" alt="" />
+              </div>
+              <p class="home_p max-[660px]:text-[19px] max-[520px]:text-[14px]">
+                300+ Delivery Men
+              </p>
+            </span>
+            <span
+              class="home_box flex gap-[20px] pt-[22px] items-center max-[450px]:hidden"
+            >
+              <div class="home_icon">
+                <img src="./assets/img/Resturent icon.svg" alt="" />
+              </div>
+              <p class="home_p max-[660px]:text-[19px] max-[520px]:text-[14px]">
+                500+ Restaurant & Cafe Shop
+              </p>
+            </span>
+            <button
+              class="home_btn max-[450px]:text-[18px] max-[380px]:text-[16px] max-[320px]:text-[14px]"
+            >
+              See more
+            </button>
+          </div>
+        </section>
+      </section>
+      <section class="flex justify-center bg-[#F8F9FE]">
+        <section class="menu bg-[#F8F9FE]">
+          <p class="menu_text max-[390px]:text-[34px]">
+            Top Food <mark class="menu_mark">restaurant</mark>
+          </p>
+          <ul
+            class="flex justify-center gap-[43px] mt-[50px] max-[1210px]:block"
+          >
+            <li class="menu_box bg-[#fff]">
+              <div class="menu_img">
+                <img src="./assets/img/menu.png" alt="" />
+              </div>
+              <p class="menu_title pt-[22px] pl-[20px]">Blaze Pizza</p>
+              <div class="flex items-center pl-[20px] pt-[15px]">
+                <div><img src="./assets/img/timer 1.svg" alt="" /></div>
+                <p class="menu_p">11.00 AM - 10.00 PM</p>
+                <div><img src="./assets/img/CTA.svg" alt="" /></div>
+              </div>
+            </li>
+            <li class="menu_box bg-[#fff] max-[1210px]:mt-[43px]">
+              <div class="menu_img">
+                <img src="./assets/img/menu_2.png" alt="" />
+              </div>
+              <p class="menu_title pt-[22px] pl-[20px]">Pizza Ranch</p>
+              <div class="flex items-center pl-[20px] pt-[15px]">
+                <div><img src="./assets/img/timer 1.svg" alt="" /></div>
+                <p class="menu_p">09.00 AM - 10.00 PM</p>
+                <div><img src="./assets/img/CTA.svg" alt="" /></div>
+              </div>
+            </li>
+            <li class="menu_box bg-[#fff] max-[1210px]:mt-[43px]">
+              <div class="menu_img">
+                <img src="./assets/img/menu_3.png" alt="" />
+              </div>
+              <p class="menu_title pt-[22px] pl-[20px]">Dion’s Pizza Hut</p>
+              <div class="flex items-center pl-[20px] pt-[15px]">
+                <div><img src="./assets/img/timer 1.svg" alt="" /></div>
+                <p class="menu_p">10.00 AM - 12.00 PM</p>
+                <div><img src="./assets/img/CTA.svg" alt="" /></div>
+              </div>
+            </li>
+          </ul>
+          <ul
+            class="flex justify-center gap-[43px] pt-[43px] max-[1210px]:block"
+          >
+            <li class="menu_box bg-[#fff]">
+              <div class="menu_img">
+                <img src="./assets/img/menu_4.png" alt="" />
+              </div>
+              <p class="menu_title pt-[22px] pl-[20px]">Royel Burger</p>
+              <div class="flex items-center pl-[20px] pt-[15px]">
+                <div><img src="./assets/img/timer 1.svg" alt="" /></div>
+                <p class="menu_p">11.00 AM - 10.00 PM</p>
+                <div><img src="./assets/img/CTA.svg" alt="" /></div>
+              </div>
+            </li>
+            <li class="menu_box bg-[#fff] max-[1210px]:mt-[43px]">
+              <div class="menu_img">
+                <img src="./assets/img/menu_5.png" alt="" />
+              </div>
+              <p class="menu_title pt-[22px] pl-[20px]">KFC Restaurant</p>
+              <div class="flex items-center pl-[20px] pt-[15px]">
+                <div><img src="./assets/img/timer 1.svg" alt="" /></div>
+                <p class="menu_p">09.00 AM - 10.00 PMv</p>
+                <div><img src="./assets/img/CTA.svg" alt="" /></div>
+              </div>
+            </li>
+            <li class="menu_box bg-[#fff] max-[1210px]:mt-[43px]">
+              <div class="menu_img">
+                <img src="./assets/img/menu_6.png" alt="" />
+              </div>
+              <p class="menu_title pt-[22px] pl-[20px]">Star Food</p>
+              <div class="flex items-center pl-[20px] pt-[15px]">
+                <div><img src="./assets/img/timer 1.svg" alt="" /></div>
+                <p class="menu_p">10.00 AM - 12.00 PM</p>
+                <div><img src="./assets/img/CTA.svg" alt="" /></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="flex justify-center bg-[#F8F9FE]">
+        <section class="flex justify-center bg-[#F8F9FE] max-[1190px]:block">
+          <div>
+            <p
+              class="mobile_text max-[660px]:pt-[50px] max-[550px]:text-[30px] max-[440px]:text-[24px]"
+            >
+              Download Our <mark class="mobile_mark">Mobile App</mark>
+            </p>
+            <p
+              class="mobile_title max-[550px]:text-[16px] max-[440px]:text-[12px] max-[440px]:pt-[15px]"
+            >
+              It's all at your fingertips -- the restaurants you love. Find
+              <br />
+              the right food to suit your mood, and make the first bite <br />
+              last. Go ahead, download app and get 50% discount
+            </p>
+            <div class="mobile_app pt-[30px] max-[440px]:w-[234px]">
+              <img src="./assets/img/Download app.svg" alt="" />
+            </div>
+          </div>
+          <div
+            class="mobile_img pt-[150px] max-[660px]:w-[500px] max-[660px]:pt-[30px] max-[550px]:w-[410px] max-[440px]:w-[335px]"
+          >
+            <img src="./assets/img/phone_zakaz.png" alt="" />
+          </div>
+        </section>
+      </section>
+      <section class="flex justify-center bg-[#F8F9FE]">
+        <section class="bg-[#F8F9FE]">
+          <p class="our_text max-[500px]:text-[25px]">
+            What Our Client Are <mark class="our_mark">Saying</mark>
+          </p>
+          <div
+            class="flex justify-center pt-[60px] gap-[68px] max-[1210px]:block"
+          >
+            <div class="max-[630px]:w-[400px] max-[500px]:w-[345px]">
+              <img src="./assets/img/girl.png" alt="" />
+            </div>
+            <div class="">
+              <div class="flex justify-center pt-[100px] max-[360px]:pt-[30px]">
+                <div><img src="./assets/img/“ (1).svg" alt="" /></div>
+                <p
+                  class="our_title max-[630px]:text-[14px] max-[500px]:text-[11px]"
+                >
+                  EFood has the most intriguing food order system in the <br />
+                  country. UI in both their app and web Is very simple and
+                  <br />
+                  easy to use, enhancing the UX. Their delivery men are also
+                  <br />
+                  quite professional and knows the neighborhood well. Till
+                  <br />
+                  now I never had to guide them to my address for delivery;
+                </p>
+                <div><img src="./assets/img/“ (1) (1).svg" alt="" /></div>
+              </div>
+
+              <div
+                class="flex justify-center gap-[300px] pt-[70px] max-[630px]:gap-[190px] max-[500px]:gap-[115px]"
+              >
+                <div>
+                  <p class="our_name">Anglina Jole</p>
+                  <p class="our_p">Food lover</p>
+                </div>
+                <div><img src="./assets/img/strelki.svg" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section
+        class="bg-[#FF7A50] w-[1170px] h-[312px] rounded-[20px] ml-[200px] max-[1430px]:hidden"
+      >
+        <p class="get_text pt-[60px]">Subscribe to get the Latest Offer</p>
+        <p class="get_title pt-[12px]">
+          Get our daily updates by subscribing to our newspaper, please drop
+          your email below
+        </p>
+        <form
+          class="get_box w-[840px] h-[78px] flex justify-center bg-[#fff] rounded-[70px] gap-[350px] ml-[165px] mt-[32px]"
+        >
+          <input
+            type="text password"
+            placeholder="Enter your email addres"
+            id=""
+          />
+          <div class="flex gap-[5px] mt-[10px]">
+            <div><img src="./assets/img/telegram.svg" alt="" /></div>
+            <button class="get_btn">Subscribe</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section class="flex justify-center bg-[#F8F9FE]">
+        <section
+          class="pt-[125px] flex bg-[#F8F9FE] justify-around gap-[100px] max-[1340px]:block"
+        >
+          <ul class="">
+            <li><img src="./assets/img/EFood_logo.svg" alt="" /></li>
+            <li class="flex gap-[7px] items-center pt-[30px]">
+              <div><img src="./assets/img/footer_icon.svg" alt="" /></div>
+              <p class="footer_p">Dhaka, Bangladesh</p>
+            </li>
+            <li class="flex gap-[7px] items-center pt-[15px]">
+              <div><img src="./assets/img/footer_icon_2.svg" alt="" /></div>
+              <p class="footer_p">0943833399</p>
+            </li>
+            <li class="flex gap-[7px] items-center pt-[15px]">
+              <div><img src="./assets/img/footer_icon_3.svg" alt="" /></div>
+              <p class="footer_p">support@efood.com</p>
+            </li>
+            <li class="pt-[15px]">
+              <img src="./assets/img/sosmed (1).svg" alt="" />
+            </li>
+          </ul>
+          <ul class="max-[1340px]:pt-[30px]">
+            <li><p class="footer_text">Service</p></li>
+            <li><p class="footer_title">How it works</p></li>
+            <li><p class="footer_title">Home delivery</p></li>
+            <li><p class="footer_title">Products</p></li>
+            <li><p class="footer_title">Menu</p></li>
+          </ul>
+          <ul class="max-[1340px]:hidden">
+            <li><p class="footer_text">Company</p></li>
+            <li><p class="footer_title">About Us</p></li>
+            <li><p class="footer_title">News</p></li>
+            <li><p class="footer_title">Our trusted partner</p></li>
+            <li><p class="footer_title">New users FAQ</p></li>
+          </ul>
+          <ul class="max-[1340px]:hidden">
+            <li><p class="footer_text">Supports</p></li>
+            <li><p class="footer_title">Help center</p></li>
+            <li><p class="footer_title">Feedbcak</p></li>
+            <li><p class="footer_title">Contact us</p></li>
+            <li><p class="footer_title">Terms conditins</p></li>
+          </ul>
+          <ul class="max-[1340px]:hidden">
+            <li><p class="footer_text">Resources</p></li>
+            <li><p class="footer_title">Download app</p></li>
+            <li><p class="footer_title">Blog</p></li>
+            <li><p class="footer_title">What’s new</p></li>
+            <li><p class="footer_title">Sitemap</p></li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="max-[1340px]:hidden">
+        <hr class="w-[100%] mt-[30px] mb-[26px] max-[1340px]:hidden" />
+        <div class="flex justify-around pb-">
+          <div>
+            <p class="footer_the">© 2021 EFood - All rights reserved.</p>
+          </div>
+          <div class="flex justify-around gap-[50px]">
+            <p class="footer_the">Privacy</p>
+            <p class="footer_the">Security</p>
+            <p class="footer_the">Terms</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+          enabled: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
